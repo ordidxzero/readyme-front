@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container shadow">
+      <div class="content login-container">
+        <h1 class="login-container__title">레디미 대비반</h1>
+        <div class="login-container__form">
+          <input
+            class="login-container__form__input"
+            type="text"
+            name="id"
+            placeholder="ID"
+          />
+          <input
+            class="login-container__form__input"
+            type="text"
+            name="name"
+            placeholder="Name"
+          />
+          <input
+            class="login-container__form__input"
+            type="password"
+            name="password"
+            placeholder="PW"
+          />
+          <input
+            class="login-container__form__input"
+            type="password"
+            name="confirm_password"
+            placeholder="Confirm PW"
+          />
+          <div class="error-message"></div>
+          <button class="login-container__form__button" type="submit">
+            회원가입
+          </button>
+          <div class="login-container__form__auth-options">
+            <a class="gray" href="./index.html">홈으로</a>
+            <a class="green" href="./login.html">로그인</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./src/register.js"></script>
+    <script src="./src/index.js"></script>
+  </body>
+</html>

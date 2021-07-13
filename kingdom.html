@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container shadow">
+      <div class="content">
+        <header class="z-20">
+          <div class="profile cabin">
+            <a href="./login.html" class="login__btn">Login</a>
+            <div class="profile__column">
+              <span class="profile__column__time">00:00</span>
+              <span class="profile__column__date">Mon, 1, January</span>
+            </div>
+          </div>
+          <div class="weather cabin">
+            <img
+              class="weather__img"
+              src="http://openweathermap.org/img/wn/04d@2x.png"
+            />
+            <div class="weather__column">
+              <span class="weather__column__temp">+18</span>
+              <span class="weather__column__location">Seoul, KR</span>
+            </div>
+          </div>
+          <div class="microphone"><i class="fas fa-microphone"></i></div>
+        </header>
+        <main>
+          <div class="main__column__fixed-header z-10"></div>
+          <nav>
+            <a href="./index.html"><i class="fas fa-film"></i></a>
+            <a href="./kingdom.html" class="current-movie"
+              ><i class="fas fa-film"></i
+            ></a>
+            <a href="./gunpowder.html"><i class="fas fa-film"></i></a>
+          </nav>
+          <div class="main__column">
+            <section class="main__column__info">
+              <img
+                class="main__column__info__img"
+                src="https://media.vlpt.us/images/ordidxzero/post/8a953b23-acec-4bc0-84a6-55a9af0841c5/Netflix_Logo_RGB.png"
+                alt="Netflix Logo"
+              />
+              <h1 class="main__column__info__title cabin">The Crown</h1>
+              <div class="main__column__info__detail cabin">
+                <span class="main__column__info__detail__star"></span>
+                <span class="main__column__info__detail__year"></span>
+                <span class="main__column__info__detail__season"></span>
+                <span class="main__column__info__detail__quality yellow"></span>
+              </div>
+              <p class="main__column__info__description mulish">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Explicabo officiis reiciendis, quia temporibus cupiditate iure
+                voluptatum blanditiis debitis perspiciatis fuga nostrum. Fugit,
+                dolore? Iste necessitatibus repellat delectus, porro eos fuga.
+              </p>
+            </section>
+            <section class="main__column__action cabin">
+              <div class="btn shadow">
+                <i class="fas fa-play-circle"></i>
+                <span class="main__column__action__play-button"
+                  >Play S4 E10</span
+                >
+              </div>
+              <div class="main__column__action__review-container">
+                <span class="main__column__action__review-container__count"
+                  >리뷰 0개</span
+                >
+                <div class="main__column__action__review-container__form">
+                  <input
+                    class="main__column__action__review-container__form__input"
+                    type="text"
+                  />
+                  <button
+                    class="
+                      main__column__action__review-container__form__submit
+                      shadow
+                    "
+                  >
+                    등록
+                  </button>
+                </div>
+                <ul class="main__column__action__review-container__list">
+                  <!-- <li class="review-container__list__item">
+                    <img
+                      class="review-container__list__item__img"
+                      src="https://media.vlpt.us/images/ordidxzero/post/450d2e7a-d38e-43ca-9c35-2720e2cbe22c/person.jpeg"
+                    />
+                    <div class="review-container__list__item__column">
+                      <div class="review-container__list__item__column__row">
+                        <div>
+                          <span class="review-container__list__item__name"
+                            >123</span
+                          >
+                          <span class="review-container__list__item__created-at"
+                            >123</span
+                          >
+                        </div>
+                        <div>
+                          <span class="review-container__list__item__btn edit"
+                            >수정</span
+                          >
+                          <span class="review-container__list__item__btn remove"
+                            >삭제</span
+                          >
+                        </div>
+                      </div>
+                      <span class="review-container__list__item__text"
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Ut praesentium at, dolores placeat sint eligendi
+                        enim, expedita nisi quasi nostrum consectetur quisquam
+                        commodi quia rerum nihil quo dolorem asperiores
+                        necessitatibus.</span
+                      >
+                    </div>
+                  </li> -->
+                </ul>
+              </div>
+            </section>
+          </div>
+          <div class="img-wrapper">
+            <img
+              class="img-wrapper__movie-poster"
+              src="https://media.vlpt.us/images/ordidxzero/post/53b1b1fc-24e1-4009-8a6d-597844da659b/the_crown.png"
+              alt=""
+            />
+          </div>
+        </main>
+      </div>
+      <a href="./gunpowder.html" class="indicator z-10 shadow">
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
