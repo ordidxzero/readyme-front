@@ -50,7 +50,7 @@ function generateReview(data) {
   nameColumn.appendChild(nameSpan);
   nameColumn.appendChild(createdAt);
   row.appendChild(nameColumn);
-  if (user.user_id === user_id) {
+  if (user && user.user_id === user_id) {
     const btnColumn = document.createElement("div");
     const editButton = document.createElement("span");
     const removeButton = document.createElement("span");
